@@ -1,0 +1,39 @@
+<suite name="TestNGRunner1" verbose="1">
+	
+ <test name="TestCycle-1">
+	 
+ <parameter name="username" value="testCycle1"></parameter> 
+  <parameter name="lastName" value="testCycle1"></parameter> 
+   <parameter name="email" value="admin@gmail.com"></parameter> 
+    <parameter name="telephone" value="1234567890"></parameter> 
+     <parameter name="password" value="admin@123"></parameter> 
+      <parameter name="confirm" value="admin@123"></parameter> 
+	 
+   <classes >
+      <class name="dataDrivenTesting.ParameterDemo"/>
+   </classes>
+ </test>
+   <test name="TestCycle-2">
+   <parameter name="username" value="testCycle2"></parameter> 
+  <parameter name="lastName" value="testCycle2"></parameter> 
+   <parameter name="email" value="user2@gmail.com"></parameter> 
+    <parameter name="telephone" value="1234567890"></parameter> 
+     <parameter name="password" value="user2@123"></parameter> 
+      <parameter name="confirm" value="user2@123"></parameter> 
+   <classes >
+      <class name="dataDrivenTesting.ParameterDemo"/>
+   </classes>
+ </test>
+   <test name="TestCycle-3">
+<parameter name="username" value="testCycle3"></parameter> 
+  <parameter name="lastName" value="testCycle3"></parameter> 
+   <parameter name="email" value="user3@gmail.com"></parameter> 
+    <parameter name="telephone" value="1234567890"></parameter> 
+     <parameter name="password" value="user3@123"></parameter> 
+      <parameter name="confirm" value="user3@123"></parameter> 
+   <classes >
+      <class name="dataDrivenTesting.ParameterDemo"/>
+  
+   </classes>
+ </test>
+</suite>

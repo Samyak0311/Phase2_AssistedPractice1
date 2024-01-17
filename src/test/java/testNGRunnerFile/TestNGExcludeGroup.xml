@@ -1,0 +1,14 @@
+<suite name="TestNGRunner1" verbose="1">
+  <test name="Sanity Testing">
+	   <groups>
+          <run>
+               <exclude name="functional"/>
+               <exclude name="Sprint1.*"/>
+           </run>
+         </groups>
+   <classes >
+      <class name="testNGAnnotations.TestMethodsdemo"> </class>
+   </classes>
+ </test>
+ </suite>
+

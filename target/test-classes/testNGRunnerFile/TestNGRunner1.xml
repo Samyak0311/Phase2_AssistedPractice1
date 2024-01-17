@@ -1,0 +1,21 @@
+<suite name="TestNGRunner1" verbose="1">
+	
+ <test name="TestCycle-1">
+   <classes >
+      <class name="testNGAnnotations.AssertionDemo1"/>
+   </classes>
+ </test>
+   <test name="TestCycle-2">
+   <classes >
+      <class name="testNGAnnotations.AssertionDemo1"/>
+      <class name="testNGAnnotations.TestAnnotationDemo2"/>
+   </classes>
+ </test>
+   <test name="TestCycle-3">
+   <classes >
+      <class name="testNGAnnotations.AssertionDemo1"/>
+      <class name="testNGAnnotations.TestAnnotationDemo2"/>
+      <class name="testNGAnnotations.BeforeClassAfterClass"/>
+   </classes>
+ </test>
+</suite>
